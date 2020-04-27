@@ -1,5 +1,6 @@
 # Mathematical Aspects of Machine Learning 
 
+
 ## Spring 2020
 ### Project Participants: Adriana Vega-Molino, Sean O'Hagan, Michael Gaiewski
 
