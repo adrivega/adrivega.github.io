@@ -1,5 +1,8 @@
-## Mathematical Aspects of Machine Learning Spring 2020
+# Mathematical Aspects of Machine Learning 
+
+## Spring 2020
 ### Project Participants: Adriana Vega-Molino, Sean O'Hagan, Michael Gaiewski
+
 
 \* All code is written in Python, unless otherwise stated. \*
 
