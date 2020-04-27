@@ -40,7 +40,7 @@ print(accuracy)
 0.9003968253968254
 ```
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
-[f4]: http://chart.apis.google.com/chart?cht=tx&chl=m_0c^2
+[f4]: http://chart.apis.google.com/chart?cht=tx&chl=m_0c^2.png
 
 
 You can use the [editor on GitHub](https://github.com/adrivega/adrivega.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
