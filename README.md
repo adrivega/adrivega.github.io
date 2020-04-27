@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## Mathematical Aspects of Machine Learning
+
+Spring 2020
+
 
 You can use the [editor on GitHub](https://github.com/adrivega/adrivega.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
