@@ -41,12 +41,9 @@ print(accuracy)
 To develop a deeper understanding of the mathematics behind a Logistic Regression classifier, we resort to Charles Elkan's lecture *Maximum Likelihood, Logistic Regression, and Stochastic Gradient Training*. The logistic regression model is detailed as <img src="https://render.githubusercontent.com/render/math?math=log%20%5Cfrac%7Bp(x)%7D%7B1-p(x)%7D%20%3D%20%5Calpha%20%2Bx%20%5Ccirc%20%5Cbeta">
  and solving for the predicted probability, obtain <img src="https://render.githubusercontent.com/render/math?math=p(x)%3D%5Cfrac%7B1%7D%7B1%2B%5Cexp-(%5Calpha%20%2B%20x%5Ccirc%20%5Cbeta)%7D">. The model is able to learn by minimizing the log conditional likelihood function via the method of Stochastic Gradient Descent providing us, in turn, with an update formula <img src="https://render.githubusercontent.com/render/math?math=%5Cbeta%20%3D%20%5Calpha%20%2B%20%5Clambda%20(y-p)x"> .
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = \beta = \alpha + \lambda (y-p)x">
-<img src="https://render.githubusercontent.com/render/math?math=log%20%5Cfrac%7Bp(x)%7D%7B1-p(x)%7D%20%3D%20%5Calpha%20%2Bx%20%5Ccirc%20%5Cbeta">
+<!--  img commment here src="https://render.githubusercontent.com/render/math?math=log%20%5Cfrac%7Bp(x)%7D%7B1-p(x)%7D%20%3D%20%5Calpha%20%2Bx%20%5Ccirc%20%5Cbeta" -->
 
-<img src="https://render.githubusercontent.com/render/math?math=log \frac{p(x)}{1-p(x)} = \alpha +x \circ \beta">
-
-
+<!--  https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b  -->
 
 You can use the [editor on GitHub](https://github.com/adrivega/adrivega.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
