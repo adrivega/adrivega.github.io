@@ -45,9 +45,6 @@ To develop a deeper understanding of the mathematics behind a Logistic Regressio
 
 <!--  https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b  -->
 
-You can use the [editor on GitHub](https://github.com/adrivega/adrivega.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
