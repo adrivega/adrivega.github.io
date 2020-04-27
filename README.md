@@ -38,11 +38,13 @@ print(accuracy)
 0.9003968253968254
 ```
 
-To develop a deeper understanding of the mathematics behind a Logistic Regression classifier, we resort to Charles Elkan's lecture *Maximum Likelihood, Logistic Regression, and Stochastic Gradient Training*. The logistic regression model is detailed as 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
-<img src="https://render.githubusercontent.com/render/math?math=log \frac{p(x)}{1-p(x)} = \alpha +x \circ \beta"> and solving for the predicted probability, obtain <img src="https://render.githubusercontent.com/render/math?math=p(x)=\frac{1}{1+\exp-(\alpha + x\circ \beta)}">. The model is able to learn by minimizing the log conditional likelihood function via the method of Stochastic Gradient Descent providing us, in turn, with an update formula <img src="https://render.githubusercontent.com/render/math?math=\beta = \alpha + \lambda (y-p)x"> .
+To develop a deeper understanding of the mathematics behind a Logistic Regression classifier, we resort to Charles Elkan's lecture *Maximum Likelihood, Logistic Regression, and Stochastic Gradient Training*. The logistic regression model is detailed as <img src="https://render.githubusercontent.com/render/math?math=log%20%5Cfrac%7Bp(x)%7D%7B1-p(x)%7D%20%3D%20%5Calpha%20%2Bx%20%5Ccirc%20%5Cbeta">
+ and solving for the predicted probability, obtain <img src="https://render.githubusercontent.com/render/math?math=p(x)%3D%5Cfrac%7B1%7D%7B1%2B%5Cexp-(%5Calpha%20%2B%20x%5Ccirc%20%5Cbeta)%7D">. The model is able to learn by minimizing the log conditional likelihood function via the method of Stochastic Gradient Descent providing us, in turn, with an update formula <img src="https://render.githubusercontent.com/render/math?math=%5Cbeta%20%3D%20%5Calpha%20%2B%20%5Clambda%20(y-p)x"> .
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = \beta = \alpha + \lambda (y-p)x">
+<img src="https://render.githubusercontent.com/render/math?math=log%20%5Cfrac%7Bp(x)%7D%7B1-p(x)%7D%20%3D%20%5Calpha%20%2Bx%20%5Ccirc%20%5Cbeta">
+
+<img src="https://render.githubusercontent.com/render/math?math=log \frac{p(x)}{1-p(x)} = \alpha +x \circ \beta">
 
 
 
