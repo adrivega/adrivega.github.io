@@ -45,7 +45,7 @@ To develop a deeper understanding of the mathematics behind a Logistic Regressio
 <a href="https://www.codecogs.com/eqnedit.php?latex=\int&space;x^{a}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\int&space;x^{a}" title="\int x^{a}" /></a>
 
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://latex.codecogs.com/png.latex?\int&space;x^{a}">
 
 
 
