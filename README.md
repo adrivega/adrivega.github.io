@@ -39,7 +39,8 @@ print(accuracy)
 ```
 
 To develop a deeper understanding of the mathematics behind a Logistic Regression classifier, we resort to Charles Elkan's lecture *Maximum Likelihood, Logistic Regression, and Stochastic Gradient Training*. The logistic regression model is detailed as 
-<img src="https://render.githubusercontent.com/render/math?math=log \frac{p(x)}{1-p(x)} = \alpha +x \circ \beta"> and solving for the predicted probability, obtain <img src="https://render.githubusercontent.com/render/math?math= p(x)=\frac{1}{1+\exp-(\alpha + x\circ \beta)}">. The model is able to learn by minimizing the log conditional likelihood function via the method of Stochastic Gradient Descent providing us, in turn, with an update formula <img src="https://render.githubusercontent.com/render/math?math= \beta = \alpha + \lambda (y-p)x"> .
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://render.githubusercontent.com/render/math?math=log \frac{p(x)}{1-p(x)} = \alpha +x \circ \beta"> and solving for the predicted probability, obtain <img src="https://render.githubusercontent.com/render/math?math=p(x)=\frac{1}{1+\exp-(\alpha + x\circ \beta)}"></script>. The model is able to learn by minimizing the log conditional likelihood function via the method of Stochastic Gradient Descent providing us, in turn, with an update formula <img src="https://render.githubusercontent.com/render/math?math=\beta = \alpha + \lambda (y-p)x"></script> .
 
 
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
