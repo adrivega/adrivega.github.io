@@ -7,7 +7,7 @@
 
 \* All code is written in Python, unless otherwise stated. \*
 
-Our group explores topics in image classification. Our first aim is to understand a Logistic Regression model and apply it on the famous MNIST dataset. Solving this classification problem allows us to predict labels based on images. The MNIST data consists of 70,000 examples of hand-written digits 0-9 along with their corresponding labels.
+We explore topics in image classification. Our first aim is to understand a Logistic Regression model and apply it on the famous MNIST dataset. Solving this classification problem allows us to predict labels based on images. The MNIST data consists of 70,000 examples of hand-written digits 0-9 along with their corresponding labels.
 
 In the following, models are executed using only the training set (60,000 images) of the dataset found at [The MNIST Database](http://yann.lecun.com/exdb/mnist/).
 
