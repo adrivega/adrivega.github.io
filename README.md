@@ -11,8 +11,8 @@ We explore topics in image classification. Our first aim is to understand a Logi
 
 In the following, models are executed using only the training set (60,000 images) of the dataset found at [The MNIST Database](http://yann.lecun.com/exdb/mnist/).
 
-{% gist 9ee980367fe890380be2fd3659a795b6 %}
-
+[//]: # <script src="https://gist.github.com/adrivega/9ee980367fe890380be2fd3659a795b6.js"></script>
+[//]: # {% gist 9ee980367fe890380be2fd3659a795b6 %}
 ```
 import numpy as np
 import pandas as pd
@@ -38,10 +38,10 @@ accuracy = model.score(X_test, y_test)
 
 print(accuracy)
 0.9003968253968254
-
 ```
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+[f4]: http://chart.apis.google.com/chart?cht=tx&chl=m_0c^2
 
-<script src="https://gist.github.com/adrivega/9ee980367fe890380be2fd3659a795b6.js"></script>
 
 You can use the [editor on GitHub](https://github.com/adrivega/adrivega.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
