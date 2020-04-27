@@ -22,6 +22,8 @@ from sklearn.linear_model import LogisticRegression
 
 ```
 
+<script src="https://gist.github.com/adrivega/9ee980367fe890380be2fd3659a795b6.js"></script>
+
 You can use the [editor on GitHub](https://github.com/adrivega/adrivega.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
