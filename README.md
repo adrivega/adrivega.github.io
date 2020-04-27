@@ -20,6 +20,25 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 
+data = pd.read_csv("MNIST_data/train.csv")
+
+x = data[data.columns[1:]]
+y = data.label
+X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.30)
+
+scaler = MinMaxScaler()
+scaler.fit(X_train)
+
+X_train = pd.DataFrame(data = scaler.transform(X_train) , columns = X_train.columns , index = X_train.index)
+X_test = pd.DataFrame(data = scaler.transform(X_test), columns  = X_test.columns)
+
+model = LogisticRegression(C=100, solver = 'lbfgs', max_iter = 1000, multi_class='multinomial')
+model.fit(X_train, y_train)
+accuracy = model.score(X_test, y_test)
+
+print(accuracy)
+0.9003968253968254
+
 ```
 
 <script src="https://gist.github.com/adrivega/9ee980367fe890380be2fd3659a795b6.js"></script>
