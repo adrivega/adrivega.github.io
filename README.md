@@ -11,9 +11,6 @@ We explore topics in image classification. Our first aim is to understand a Logi
 
 In the following, models are executed using only the training set (60,000 images) of the dataset found at [The MNIST Database](http://yann.lecun.com/exdb/mnist/).
 
-[//]: # <script src="https://gist.github.com/adrivega/9ee980367fe890380be2fd3659a795b6.js"></script>
-[//]: # {% gist 9ee980367fe890380be2fd3659a795b6 %}
-[//]: # <img src="http://www.sciweavers.org/tex2img.php?eq=%20%5Cint_a%5Eb%20x%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0" align="center" border="0" alt=" \int_a^b x " width="42" height="51" />
 ```
 import numpy as np
 import pandas as pd
@@ -42,11 +39,10 @@ print(accuracy)
 ```
 
 To develop a deeper understanding of the mathematics behind a Logistic Regression classifier, we resort to Charles Elkan's lecture *Maximum Likelihood, Logistic Regression, and Stochastic Gradient Training*. The logistic regression model is detailed as 
-<img src="https://render.githubusercontent.com/render/math?math=log \frac{p(x)}{1-p(x)} = \alpha +x \circ \beta"> and solving for the predicted probability, obtain <img src="https://render.githubusercontent.com/render/math?math=p(x)=\frac{1}{1+\exp-(\alpha + x\circ \beta)} >. The model is able to learn by minimizing the log conditional likelihood function via the method of Stochastic Gradient Descent providing us, in turn, with an update formula <img src="https://render.githubusercontent.com/render/math?math=\beta = \alpha + \lambda (y-p)x> .
+<img src="https://render.githubusercontent.com/render/math?math=log \frac{p(x)}{1-p(x)} = \alpha +x \circ \beta"> and solving for the predicted probability, obtain <img src="https://render.githubusercontent.com/render/math?math= p(x)=\frac{1}{1%2B\exp-(\alpha %2B x\circ \beta)} >. The model is able to learn by minimizing the log conditional likelihood function via the method of Stochastic Gradient Descent providing us, in turn, with an update formula <img src="https://render.githubusercontent.com/render/math?math=\beta = \alpha %2B \lambda (y-p)x> .
 
-$\pi$
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 
