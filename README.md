@@ -11,6 +11,8 @@ We explore topics in image classification. Our first aim is to understand a Logi
 
 In the following, models are executed using only the training set (60,000 images) of the dataset found at [The MNIST Database](http://yann.lecun.com/exdb/mnist/).
 
+{% gist 9ee980367fe890380be2fd3659a795b6 %}
+
 You can use the [editor on GitHub](https://github.com/adrivega/adrivega.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
